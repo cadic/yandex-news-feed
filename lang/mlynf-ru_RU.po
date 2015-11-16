@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yandex News Feed\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Nov 16 2015 11:58:00 GMT+0300 (MSK)\n"
+"PO-Revision-Date: Mon Nov 16 2015 12:07:14 GMT+0300 (MSK)\n"
+"Last-Translator: admin <max@lyuchin.ru>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ru_RU\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Yandex News Feed"
+msgstr "Экспорт в Яндекс.Новости"
+
+#. Description of the plugin
+msgid "Provides feed for Yandex News with proper format."
+msgstr "Создает экспортный файл для сервиса Яндекс.Новости"
+
+#. Author of the plugin
+msgid "Max Lyuchin"
+msgstr "Макс Лючин"
+
+#. Author URI of the plugin
+msgid "http://heartwp.com"
+msgstr "http://heartwp.com"
+
+#: ../includes/metaboxes.php:14 ../includes/settings.php:7
+msgid "Yandex News"
+msgstr "Яндекс.Новости"
+
+#: ../includes/metaboxes.php:31
+msgid "Short message, 50-80 characters"
+msgstr "Короткое сообщение, 50-80 символов"
+
+#: ../includes/metaboxes.php:32
+msgid "General message"
+msgstr "Более развёрнутое новостное сообщение"
+
+#: ../includes/metaboxes.php:33
+msgid "Article, longread"
+msgstr "Статья, лонгрид"
+
+#: ../includes/metaboxes.php:34
+msgid "Interview"
+msgstr "Интервью"
+
+#: ../includes/metaboxes.php:39
+msgid "Ignore this"
+msgstr "Игнорировать"
+
+#: ../includes/metaboxes.php:42
+msgid "Check this if you don't want this object to be added to export file."
+msgstr ""
+"Отметьте это, если хотите чтобы данный материал был исключен из экспортного "
+"файла."
+
+#: ../includes/metaboxes.php:47
+msgid "Yandex Genre"
+msgstr "Тип сообщения"
+
+#: ../includes/settings.php:7
+msgid "Yandex News Settings"
+msgstr "Настройки Яндекс.Новости"
+
+#: ../includes/settings.php:30
+msgid "Yandex News Export Settings"
+msgstr "Настройки экспорта в Яндекс.Новости"
+
+#: ../includes/settings.php:38
+msgid "Channel Title"
+msgstr "Название сайта"
+
+#: ../includes/settings.php:43
+msgid "Channel Description"
+msgstr "Описание сайта"
+
+#: ../includes/settings.php:48
+msgid "Channel Link"
+msgstr "Ссылка на сайт"
+
+#: ../includes/settings.php:53
+msgid "Channel Logo"
+msgstr "Логотип сайта"
+
+#: ../includes/settings.php:56 ../includes/settings.php:64
+msgid "Select"
+msgstr "Выбрать"
+
+#: ../includes/settings.php:61
+msgid "Channel Logo Square"
+msgstr "Квадратный логотип"
+
+#: ../includes/settings.php:69
+msgid "Feed URL"
+msgstr "Адрес экспортного файла"
+
+#: ../includes/settings.php:72
+#, php-format
+msgid ""
+"After you change Feed URL, please go to <a href=\"%s\">Settings &gt; "
+"Permalinks</a> and hit Save Changes button"
+msgstr ""
+"После того как измените адрес экспортного файла, зайдите в <a "
+"href=\"%s\">Настройки &gt; Постоянные ссылки</a> и нажмите кнопку Сохранить "
+"изменения"
+
+#: ../includes/settings.php:77
+msgid "Post Types"
+msgstr "Типы материалов"
+
+#: ../includes/settings.php:85
+msgid "Posts"
+msgstr "Записи"
+
+#: ../includes/settings.php:95
+msgid "Categories"
+msgstr "Рубрики"
+
+#: ../includes/settings.php:105
+msgid "All"
+msgstr "Все"
+
+#: ../includes/settings.php:122
+msgid "Save Changes"
+msgstr "Сохранить изменения"
